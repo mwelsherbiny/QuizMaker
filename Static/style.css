@@ -1,0 +1,373 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    padding: 25px;
+    background-color: #009DFF;
+    color: white;
+    gap: 25px;
+    font-weight: normal;
+    align-items: center;
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+}
+
+.create {
+    display: flex;
+    color: white;
+}
+
+.create img {
+    margin-left: 2px;
+    width: 26px;
+}
+
+.search_bar {
+    display: flex;
+    margin-left: auto;
+    background-color: white;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 15px;
+    width: 300px;
+}
+
+.search_bar img {
+    position: relative;
+    left: 10px;
+    width: 25px;
+}
+
+.search_bar input::placeholder {
+    color: #939BB4;
+    font-weight: bold;
+}
+
+.search_bar input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #939BB4;
+    width: 150px;
+}
+
+.app_name {
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main h1 {
+    font-weight: normal;
+    color: #2c3f47;
+}
+
+.route_error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.auth {
+    width: 300px;
+    display: flex;
+    font-weight: normal;
+    color: #2c3f47;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #939BB4;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.auth:hover {
+    background-color: #dddddd;
+    transition: 0.1s;
+}
+
+.auth img {
+    width: 32px;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.warning {
+    background-color: #ff0f0f;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.remove-btn {
+    width: 24px;
+    height: 24px;
+    background-color: #ff0f0f;
+    border: none;
+    margin: 10px;
+}
+
+.warning-text {
+    padding: 5px 15px 15px 15px;
+}
+
+.main {
+    margin-top: 20px;
+    color: #2c3f47;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+.main-form {
+    margin-bottom: 10px;
+}
+
+#quiz-name, #quiz-time {
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid #939BB4;
+    margin-bottom: 10px;
+}
+
+.visibility-form span {
+    display: inline-block;
+    width: 100px;
+}
+
+.visibility-form input {
+    margin: 0;
+}
+
+.visibility-form {
+    margin-bottom: 10px;
+}
+
+.time-form span {
+    font-weight: normal;
+}
+
+.submit-quiz, .submit-quiz-attempt {
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+
+.submit-quiz input, .submit-quiz-attempt-btn {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #009DFF;
+    font-size: 16px;
+}
+
+.submit-quiz input {
+    width: 50%;
+}
+
+.question-form {
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #939BB4;
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+    width: 80%;
+}
+
+.curr-question, .curr-question-value {
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.curr-question-form, .curr-question-data {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.curr-choices input, .choice-value {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    width: 70%;
+}
+
+.edit-quiz {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.quiz-info {
+    display: flex;
+    gap: 5px;
+    place-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.question-nav {
+    flex: 1;
+}
+
+.question-marker, .add-question-btn, .remove-question-btn {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #939BB4;
+    color: white;
+}
+
+.add-question-btn {
+    background-color: #45cc2d;
+}
+
+.remove-question-btn {
+    background-color: #ff0f0f;
+}
+
+.correct-answer-marker {
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #939BB4;
+    color: white;
+    margin-left: 5px;
+}
+
+.form-warning {
+    color: #ff0f0f;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.form-warning div {
+    display: none;
+}
+
+.cards {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    gap: 25px;
+}
+
+.cards a {
+    color: #2c3f47;
+}
+
+.created-quizzes-card {
+    background-color: #FFB836;
+}
+
+.submitted-quizzes-card {
+    background-color: #63F0BD;
+}
+
+.created-quizzes-card, .submitted-quizzes-card {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.quiz-cards {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quiz-card {
+    display: flex;
+    gap: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.quiz-card:hover, .choice-value:hover {
+    background-color: #f4f2f2;
+    transition: 0.1s;;
+}
+
+.attempt-quiz {
+    margin-left: auto;
+}
+
+.attempt-quiz-btn {
+    background-color: #009DFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.quiz-data {
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.score {
+    display: none;
+    border: solid 1px #2c3f47;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.clickable {
+    cursor:pointer;
+}
+
+.no-select {
+    user-select: none;
+}

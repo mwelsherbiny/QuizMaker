@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/google-api/vendor/google/apiclient-services" />
+      <path value="$PROJECT_DIR$/google-api/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/google-api/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/google-api/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/google-api/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/google-api/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/google-api/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/google-api/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/google-api/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/google-api/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/google-api/vendor/composer" />
+      <path value="$PROJECT_DIR$/google-api/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/google-api/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/google-api/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/google-api/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/google-api/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/google-api/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/google-api/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/google-api/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/google-api/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/google-api/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/google-api/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/google-api/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/google-api/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpcompatibility/php-compatibility" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpspec/prophecy-phpunit" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/google-api/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/google-api/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/google-api/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/google-api/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/google-api/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/google-api/vendor/justinrainbow/json-schema" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.3">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/google-api/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+{
+    "name": "mwe74/quiz-maker",
+    "autoload": {
+        "psr-4": {
+            "Mwe74\\QuizMaker\\": "src/",
+            "Core\\": "Core",
+            "Controllers\\": "Controllers",
+            "Models\\": "Models"
+        }
+    },
+    "authors": [
+        {
+            "name": "mwelsherbiny",
+            "email": "mwelsherbiny@gmail.com"
+        }
+    ],
+  "require": {
+    "ext-pdo": "*",
+    "ext-curl": "*",
+        "vlucas/phpdotenv": "^5.6"
+  }
+}
